@@ -1,43 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: "Sandeep Kumar"
+email: sandeep.k1977@gmail.com
+description: "Sandeep's blogs"
+baseurl: ""
+url: "https://sandeepk1977.github.io/"
+title_description: "Developer, agilist, learner and dreamer. Welcome to my little world."
+title_image: "images/sandeep.jpg"
+google_analytics: "UA-127173510-1"
+disqus_account: https-sandeepk1977-github-io
+github_repository: https://github.com/sandeepk1977/sandeepk1977.github.io
+addthis_id: ra-5bbce3db6ff52e23
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: sandskum
+github_username:  sandeepk1977
+instagram_username: 
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/sandeep-kumar-safe-agilist%C2%AE-pmi-acp%C2%AE-csm%C2%AE-pmp%C2%AE-1941ba15/
+google_plus_link: https://plus.google.com/+SandeepKumars
+stackoverflow_link: https://stackoverflow.com/users/10488369/sandeep-kumar
+xing_link:
+facebook_link:
+
+# Footer
+# footer_left: "Site run and maintained by <a href=\"https://twitter.com/sandskum\">Sandeep Kumar</a>"
+footer_left:  "<a href=\"mailto:sandeep.k1977@gmail.com?subject=Feedback about Sandeep's blogsite\">Feedback</a> &nbsp; <i class=\"fa fa-envelope-o\"></i>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/sandeepk1977/sandeepk1977.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
